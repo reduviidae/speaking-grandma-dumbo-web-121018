@@ -1,3 +1,7 @@
+puts "Say something to Grandma"
+
+string = gets.chomp
+
 # Write a speak_to_grandma method.
 def speak_to_grandma(string)
 
@@ -18,3 +22,5 @@ def speak_to_grandma(string)
     return "NO, NOT SINCE 1938!"
   end
 end
+
+speak_to_grandma(string)
